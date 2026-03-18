@@ -13,7 +13,7 @@ export default function WebDevelopment() {
       num: '01',
       title: 'TSEDAQAH Clothing',
       category: 'E-Commerce',
-      year: '2026',
+      year: '2025',
       liveUrl: 'https://www.tsedaqah.com/',
       shortDesc: 'Full-stack e-commerce platform for a premium female office-wear brand in Nigeria.',
       fullDesc: 'A comprehensive e-commerce solution built from scratch. Features include a custom storefront with product catalog, admin dashboard for inventory management, Paystack payment integration, customer accounts and order history, discount codes, delivery logic, email/SMS notifications, abandoned cart recovery, and sales analytics.',
