@@ -20,7 +20,7 @@ export default function Contact() {
   const info = [
     { icon: FiMail,    label: 'Email',    value: 'adekoyaprecious180@gmail.com',         href: 'mailto:adekoyaprecious180@gmail.com' },
     { icon: FiMapPin,  label: 'Location', value: 'Ikota, Lagos, Nigeria',                href: null },
-    { icon: FiGithub,  label: 'GitHub',   value: 'github.com/precious',                 href: 'https://github.com' },
+    { icon: FiGithub,  label: 'GitHub',   value: 'github.com/adekoya1-1',                 href: 'https://github.com/adekoya1-1' },
     { icon: FiLinkedin,label: 'LinkedIn', value: 'linkedin.com/in/precious',             href: 'https://linkedin.com' },
     { icon: FiTwitter, label: 'Portfolio', value: 'adekoyapreciousabdulfataii.vercel.app', href: 'https://adekoyapreciousabdulfataii.vercel.app/' },
   ];

@@ -39,7 +39,7 @@ export default function WebDevelopment() {
       category: 'Web App',
       year: '2024',
       liveUrl: null,
-      shortDesc: 'Wattpad-inspired platform for publishing and reading stories online.',
+      shortDesc: 'Wattpad-inspired platform for publishing and reading stories online with ai story creation.',
       fullDesc: 'A full-stack reading and writing community platform. Features user authentication, rich text story creation and publishing, a story discovery feed, reader profiles, follow system, and reading history. Built on the MERN stack with a RESTful API backend.',
       tech: ['React', 'NodeJS', 'MongoDB', 'Express', 'JWT'],
       viewLink: 'https://github.com',
@@ -50,11 +50,11 @@ export default function WebDevelopment() {
       title: 'Dev Portfolio — Dark',
       category: 'Portfolio',
       year: '2024',
-      liveUrl: null,
+      liveUrl: 'https://adekoyapreciousabdulfataii.vercel.app/',
       shortDesc: 'Personal portfolio for web development work with dropdown navigation and project modals.',
       fullDesc: 'A dark-themed portfolio site built in React/Vite showcasing software development work. Features dropdown navigation, project detail modals, and a fully responsive layout.',
       tech: ['React', 'Vite'],
-      viewLink: 'https://github.com',
+      viewLink: 'https://github.com/adekoya1-1/portfolio',
     },
   ];
 
@@ -99,7 +99,6 @@ export default function WebDevelopment() {
                   <div className="preview-placeholder">
                     <div className="placeholder-icon"><FiGlobe size={28} /></div>
                     <span className="placeholder-label">Live URL coming soon</span>
-                    <span className="placeholder-sub">Add your deployed URL to activate</span>
                   </div>
                 )}
               </div>

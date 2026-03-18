@@ -24,9 +24,9 @@ export default function Footer() {
           <div className="footer-section">
             <h4>Connect</h4>
             <div className="social-links">
-              <a href="#" aria-label="Twitter"><FiTwitter size={18} /></a>
+              <a href="https://x.com/Preciou90086811" aria-label="Twitter"><FiTwitter size={18} /></a>
               <a href="#" aria-label="LinkedIn"><FiLinkedin size={18} /></a>
-              <a href="#" aria-label="GitHub"><FiGithub size={18} /></a>
+              <a href="https://github.com/adekoya1-1" aria-label="GitHub"><FiGithub size={18} /></a>
               <a href="mailto:adekoyaprecious180@gmail.com" aria-label="Email"><FiMail size={18} /></a>
             </div>
           </div>
