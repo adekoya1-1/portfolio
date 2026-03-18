@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FiMenu, FiX } from 'react-icons/fi';
+import { FiMenu, FiX, FiFileText } from 'react-icons/fi';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -42,6 +42,16 @@ export default function Navbar() {
           </div>
 
           <Link to="/contact" onClick={closeMenus} className="nav-link">Contact</Link>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-resume-btn"
+            onClick={closeMenus}
+          >
+            <FiFileText size={14} /> Resume
+          </a>
         </div>
 
         <button

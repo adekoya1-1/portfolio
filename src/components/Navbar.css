@@ -172,3 +172,32 @@
 
   .nav-link { font-size: 0.9rem; }
 }
+
+.nav-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 18px;
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(200, 255, 87, 0.4);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-resume-btn:hover {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+@media (max-width: 768px) {
+  .nav-resume-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

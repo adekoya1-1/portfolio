@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="#" aria-label="Twitter"><FiTwitter size={18} /></a>
               <a href="#" aria-label="LinkedIn"><FiLinkedin size={18} /></a>
               <a href="#" aria-label="GitHub"><FiGithub size={18} /></a>
-              <a href="mailto:hello@precious.dev" aria-label="Email"><FiMail size={18} /></a>
+              <a href="mailto:adekoyaprecious180@gmail.com" aria-label="Email"><FiMail size={18} /></a>
             </div>
           </div>
         </div>
