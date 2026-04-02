@@ -39,7 +39,7 @@ export default function WebDevelopment() {
       category: 'Web App',
       year: '2024',
       liveUrl: null,
-      shortDesc: 'Wattpad-inspired platform for publishing and reading stories online with ai story creation.',
+      shortDesc: 'Wattpad-inspired platform for publishing and reading stories online with ai story creation1.',
       fullDesc: 'A full-stack reading and writing community platform. Features user authentication, rich text story creation and publishing, a story discovery feed, reader profiles, follow system, and reading history. Built on the MERN stack with a RESTful API backend.',
       tech: ['React', 'NodeJS', 'MongoDB', 'Express', 'JWT'],
       viewLink: 'https://github.com',
@@ -55,6 +55,18 @@ export default function WebDevelopment() {
       fullDesc: 'A dark-themed portfolio site built in React/Vite showcasing software development work. Features dropdown navigation, project detail modals, and a fully responsive layout.',
       tech: ['React', 'Vite'],
       viewLink: 'https://github.com/adekoya1-1/portfolio',
+    },
+    {
+      id: 'corporate',
+      num: '05',
+      title: 'Jmove Logisics',
+      category: 'Corporate Site',
+      year: '2026',
+      liveUrl: 'https://jmove-logistics.vercel.app',
+      shortDesc: 'Full-stack logistics management platform modelled after real-world courier operations in Nigeria.',
+      fullDesc: 'A comprehensive logistics solution built from scratch for the Nigerian market. Features include waybill-based shipment creation and tracking, a zone-based pricing engine across 20 cities, an admin dashboard for managing staff drivers and shipments, multiple payment methods, and real-time delivery status updates — modelled after the operational structure of established Nigerian courier networks like GIG Logistics.',
+      tech: ['React', 'Vite', 'Express.js', 'MongoDB Atlas', 'Render', 'Vercel', 'Monorepo'],
+      viewLink: 'https://github.com/adekoya1-1',
     },
   ];
 
