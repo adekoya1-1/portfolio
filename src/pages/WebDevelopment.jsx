@@ -27,6 +27,7 @@ export default function WebDevelopment() {
       category: 'Corporate Site',
       year: '2025',
       liveUrl: 'https://tetranglesproject.vercel.app/',
+      previewImg: '/previews/tetrangles.png',
       shortDesc: 'Multi-page corporate website for a Nigerian construction and real estate company.',
       fullDesc: 'A fully branded multi-page website for Tetrangles Projects Limited. Includes a company overview, full project portfolio gallery, team profiles, and contact pages. Built with React/Vite and delivered as a production-ready package with responsive design across all device sizes.',
       tech: ['React', 'Vite', 'JWT'],
@@ -62,7 +63,7 @@ export default function WebDevelopment() {
       title: 'Jmove Logistics',
       category: 'Corporate Site',
       year: '2026',
-      liveUrl: 'https://jmove-logistics.vercel.app/',
+      liveUrl: 'https://jmovelogistics.com/',
       shortDesc: 'Full-stack logistics management platform modelled after real-world courier operations in Nigeria.',
       fullDesc: 'A comprehensive logistics solution built from scratch for the Nigerian market. Features include waybill-based shipment creation and tracking, a zone-based pricing engine across 20 cities, an admin dashboard for managing staff drivers and shipments, multiple payment methods, and real-time delivery status updates — modelled after the operational structure of established Nigerian courier networks like GIG Logistics.',
       tech: ['React', 'Vite', 'Express', 'MongoDB', 'Render', 'Vercel', 'Monorepo'],
@@ -88,9 +89,17 @@ export default function WebDevelopment() {
               {/* Preview Area */}
               <div
                 className={`project-preview ${project.liveUrl ? 'has-live' : 'no-live'}`}
-                onClick={() => project.liveUrl && setFullPreview(project)}
+                onClick={() => project.liveUrl && !project.previewImg && setFullPreview(project)}
               >
-                {project.liveUrl ? (
+                {project.previewImg ? (
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="preview-img-link">
+                    <img src={project.previewImg} alt={project.title} className="preview-screenshot" />
+                    <div className="preview-overlay">
+                      <FiExternalLink size={20} />
+                      <span>Visit Site</span>
+                    </div>
+                  </a>
+                ) : project.liveUrl ? (
                   <>
                     <div className="preview-frame-wrap">
                       <iframe

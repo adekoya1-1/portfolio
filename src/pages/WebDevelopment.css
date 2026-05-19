@@ -122,6 +122,21 @@
   color: var(--accent);
 }
 
+.preview-img-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.preview-screenshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
 .preview-placeholder {
   width: 100%; height: 100%;
   display: flex; flex-direction: column;
